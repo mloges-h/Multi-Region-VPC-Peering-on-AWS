@@ -22,8 +22,6 @@ It simulates a real-world scenario where applications in different regions need 
 - **VPC Peering** established between the two VPCs.  
 - Route tables and security groups updated to allow **EC2-to-EC2 private IP communication**.  
 
-![Architecture Diagram](./architecture-diagram.png)
-
 ---
 
 ## ⚙️ AWS Services Used
