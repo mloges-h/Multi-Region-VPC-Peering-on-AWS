@@ -5,8 +5,7 @@ Demonstration of secure cross-region communication between AWS VPCs  (Mumbai &am
 # Cross-Region VPC Peering on AWS
 
 ## 📌 Project Overview
-This project demonstrates how to establish **secure communication between two AWS VPCs located in different regions** (Mumbai & Singapore) using VPC Peering.  
-It simulates a real-world scenario where applications in different regions need private networking without exposing resources to the internet.
+This project demonstrates how to establish **secure communication between two AWS VPCs located in different regions** (Mumbai & Singapore) using VPC Peering. It simulates a real-world scenario where applications in different regions need private networking without exposing resources to the internet.
 
 ---
 
