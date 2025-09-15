@@ -4,12 +4,12 @@ Demonstration of secure cross-region communication between AWS VPCs  (Mumbai &am
 
 # Cross-Region VPC Peering on AWS
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates how to establish **secure communication between two AWS VPCs located in different regions** (Mumbai & Singapore) using VPC Peering. It simulates a real-world scenario where applications in different regions need private networking without exposing resources to the internet.
 
 ---
 
-## 🛠️ Architecture
+##  Architecture
 - **VPC 1 (Mumbai region)**  
   - Public subnet with Internet Gateway  
   - EC2 instance (used as client)  
@@ -28,7 +28,7 @@ This project demonstrates how to establish **secure communication between two AW
 
 ---
 
-## ⚙️ AWS Services Used
+##  AWS Services Used
 - VPC, Subnets, Route Tables  
 - Internet Gateway (IGW)  
 - VPC Peering  
@@ -37,7 +37,7 @@ This project demonstrates how to establish **secure communication between two AW
 
 ---
 
-## 🚀 Steps Implemented
+##  Steps Implemented
 1. Created two VPCs (Mumbai & Singapore).  
 2. Added subnets (public in Mumbai, private in Singapore).  
 3. Configured Internet Gateway for Mumbai VPC.  
@@ -49,13 +49,13 @@ This project demonstrates how to establish **secure communication between two AW
 
 ---
 
-## ✅ Results
+##  Results
 - Achieved **cross-region private communication** between EC2 instances.  
 - Singapore private EC2 (no internet access) could communicate with Mumbai EC2 securely via VPC Peering.  
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 - VPC creation (Mumbai & Singapore)  
 - Route tables configuration  
 - Successful EC2 ping test  
