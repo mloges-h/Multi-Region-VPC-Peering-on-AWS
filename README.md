@@ -13,13 +13,18 @@ This project demonstrates how to establish **secure communication between two AW
 - **VPC 1 (Mumbai region)**  
   - Public subnet with Internet Gateway  
   - EC2 instance (used as client)  
+<img width="1111" height="499" alt="image" src="https://github.com/user-attachments/assets/213ffe5f-524c-403c-96e3-0f4a298fd2aa" />
+
 
 - **VPC 2 (Singapore region)**  
   - Private subnet (no internet access)  
-  - EC2 instance (used as server)  
+  - EC2 instance (used as server)
+  - <img width="1116" height="482" alt="image" src="https://github.com/user-attachments/assets/946e525c-1232-4fe7-beac-25e87afbfdeb" />
+
 
 - **VPC Peering** established between the two VPCs.  
 - Route tables and security groups updated to allow **EC2-to-EC2 private IP communication**.  
+<img width="1116" height="498" alt="image" src="https://github.com/user-attachments/assets/59f6be23-a41e-4d58-9691-5523e194ecb3" />
 
 ---
 
@@ -54,6 +59,8 @@ This project demonstrates how to establish **secure communication between two AW
 - VPC creation (Mumbai & Singapore)  
 - Route tables configuration  
 - Successful EC2 ping test  
+<img width="1098" height="324" alt="image" src="https://github.com/user-attachments/assets/21c72f4c-0e20-4b83-9f46-d6732ed55331" />
+<img width="770" height="402" alt="image" src="https://github.com/user-attachments/assets/858df665-cff0-4b69-a4b3-e9d8f35faf90" />
 
 ---
 
@@ -62,8 +69,3 @@ This setup can also be automated using **Terraform**.
 If added, include Terraform scripts in the `/terraform` folder.  
 
 ---
-
-## 🔮 Future Improvements
-- Test **Transit Gateway** for hub-spoke architecture.  
-- Add **monitoring with CloudWatch**.  
-- Automate with **Terraform & CI/CD pipeline**.  
