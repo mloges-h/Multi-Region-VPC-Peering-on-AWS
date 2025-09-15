@@ -64,7 +64,7 @@ This project demonstrates how to establish **secure communication between two AW
 
 ---
 
-## 📂 Infrastructure as Code (Optional)
+##  Infrastructure as Code (Automated)
 This setup can also be automated using **Terraform**.  
 If added, include Terraform scripts in the `/terraform` folder.  
 
