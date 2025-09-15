@@ -70,6 +70,8 @@ If added, include Terraform scripts in the `/terraform/ main.tf` file.
 
 Once added :
 
+aws configure by using users access credentials of IAM:
+
 install terraform
 terraform init - to initiate 
 terraform validate - to check configurations
