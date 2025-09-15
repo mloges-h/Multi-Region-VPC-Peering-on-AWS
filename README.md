@@ -66,6 +66,16 @@ This project demonstrates how to establish **secure communication between two AW
 
 ##  Infrastructure as Code (Automated)
 This setup can also be automated using **Terraform**.  
-If added, include Terraform scripts in the `/terraform` folder.  
+If added, include Terraform scripts in the `/terraform/ main.tf` file.  
+
+Once added :
+
+install terraform
+terraform init - to initiate 
+terraform validate - to check configurations
+terraform plan - to check errors
+terraform apply - to create the infra
+terraform destory - to terminate the infra
+
 
 ---
